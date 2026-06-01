@@ -71,7 +71,7 @@ if ($res) {
                     </div>
                     <div class="input-group">
                         <label>Department</label>
-                        <select name="department" required style="width: 100%; padding: 12px 15px; background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border-glass); border-radius: 8px; color: #fff; font-size: 16px; outline: none;">
+                        <select name="department" required>
                             <option value="" style="color:#000;">-- Select Department --</option>
                             <?php foreach($department_list as $dept): ?>
                                 <option value="<?= htmlspecialchars($dept) ?>" style="color:#000;"><?= htmlspecialchars($dept) ?></option>
@@ -127,7 +127,7 @@ if ($res) {
                     </div>
                     <div class="input-group">
                         <label>Department</label>
-                        <select name="department" required style="width: 100%; padding: 12px 15px; background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border-glass); border-radius: 8px; color: #fff; font-size: 16px; outline: none;">
+                        <select name="department" required>
                             <option value="" style="color:#000;">-- Select Department --</option>
                             <?php foreach($department_list as $dept): ?>
                                 <option value="<?= htmlspecialchars($dept) ?>" style="color:#000;"><?= htmlspecialchars($dept) ?></option>
